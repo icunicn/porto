@@ -1,0 +1,4 @@
+.brand{position:fixed;z-index:3;top:30px;left:32px;color:#fff;font-family:"Playfair Display",Georgia,serif;letter-spacing:-.045em;text-decoration:none}
+.brand span{display:block;font-size:15px;font-weight:500}
+.brand small{display:block;margin-top:3px;color:var(--muted);font-family:Inter,Arial,sans-serif;font-size:11px;letter-spacing:-.02em}
+@media(max-width:700px){.brand{top:23px;left:21px}}

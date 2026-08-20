@@ -1,0 +1,26 @@
+@import './tokens.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden; /* Kunci utama untuk menghilangkan scrollbar bawah */
+  background: #000;
+  color: var(--ink);
+  font-family: Inter, Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}

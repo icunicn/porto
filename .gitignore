@@ -1,0 +1,20 @@
+# Build output
+dist/
+
+# Dependencies
+node_modules/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Tool caches / local-only agent dirs
+.agents/
+.aidesigner/*
+!.aidesigner/.gitkeep
+.codex/
